@@ -15,10 +15,117 @@
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/header"
-        app:layout_constraintVertical_bias="1.0"></LinearLayout>
+        app:layout_constraintVertical_bias="1.0">
+
+        <LinearLayout
+            android:id="@+id/space1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"></LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/record1"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#FFEB3B"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Telecentro 7/10 $10000" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@tools:sample/avatars"
+                app:srcCompat="@android:drawable/checkbox_on_background" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/space2"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:orientation="horizontal" />
+
+        <LinearLayout
+            android:id="@+id/record2"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#FFEB3B"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="251dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Edesur 9/10 $18000" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@tools:sample/avatars"
+                tools:srcCompat="@android:drawable/ic_dialog_alert" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/space3"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"></LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/record3"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#FFEB3B"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="293dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="MetroGas  15/10 $5000" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@tools:sample/avatars"
+                app:srcCompat="@android:drawable/ic_delete" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/space4"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"></LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/record5"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#FFEB3B"
+            android:orientation="horizontal"></LinearLayout>
+
+    </LinearLayout>
 
     <LinearLayout
         android:id="@+id/header"
@@ -38,21 +145,22 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Button1" />
+            android:text="Menú" />
 
         <TextView
-            android:id="@+id/textView2"
-            android:layout_width="match_parent"
+            android:id="@+id/For2pay"
+            android:layout_width="500dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="TextView" />
+            android:gravity="center_horizontal"
+            android:text="For2pay" />
 
         <Button
             android:id="@+id/button4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Button2" />
+            android:text="Agregar" />
 
     </LinearLayout>
 
